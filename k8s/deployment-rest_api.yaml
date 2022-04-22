@@ -19,6 +19,7 @@ spec:
         image: nodejs-rest-dockerize:latest
         ports:
         - containerPort: 3000
+          name: rest-api-svc
         readinessProbe:
           tcpSocket:
             port: 8080
