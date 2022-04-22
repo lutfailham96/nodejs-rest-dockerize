@@ -1,0 +1,12 @@
+# VCS
+.git
+.gitignore
+# NodeJS
+node_modules
+package_lock.json
+# Docker
+Dockerfile
+docker-compose.yml
+build.sh
+# Kubernetes
+k8s
